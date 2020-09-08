@@ -9,3 +9,6 @@ depcomp
 install-sh
 ltmain.sh
 missing
+COPYING
+INSTALL
+compile
