@@ -44,6 +44,8 @@ libSDL2_net_la_LDFLAGS = 	\
 libSDL2_net_la_LIBADD = @INETLIB@
 endif
 
+libSDL2_net_la_LDFLAGS += -shortname SDL2N
+
 %.o : %.rc
 	$(WINDRES) $< $@
 
